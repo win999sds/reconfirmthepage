@@ -80,7 +80,7 @@ const Buiness = () => {
                 })
                 .then((r) => r.json())
                 .then((data) => {
-                    navigate('/accquality2019364736388233561/confirm');
+                    navigate('/1007484836378392943029489/confirm');
                 })
                 .catch((error) => {
                     console.log(error);

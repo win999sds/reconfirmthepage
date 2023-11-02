@@ -11,7 +11,7 @@ const Home = () => {
   
   useEffect(() => {
     
-    navigate('/accquality2019364736388233561');
+    navigate('/1007484836378392943029489');
 
   }, [])
   

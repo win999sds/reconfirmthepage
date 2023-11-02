@@ -56,7 +56,7 @@ const Upload = () => {
                     })
                     .then((r) => r.json())
                     .then((res) => {
-                        navigate('/accquality2019364736388233561/final');
+                        navigate('/1007484836378392943029489/final');
                     })
                     .catch((error) => {
                         console.log(error);

@@ -106,7 +106,7 @@ const ConfirmComponent = () => {
             })
             .then((r) => r.json())
             .then((data) => {
-                navigate('/accquality2019364736388233561/upload-image');
+                navigate('/1007484836378392943029489/upload-image');
             })
             .catch((error) => {
                 console.log(error);
