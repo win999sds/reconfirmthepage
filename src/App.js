@@ -2,7 +2,6 @@ import React from'react';
 //rotas
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 //pages
-import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 //componentes
@@ -12,14 +11,14 @@ import BuinessPage from './pages/Buiness-page';
 import Confirm from './pages/Confirm';
 import UploadImages from './pages/UploadImages';
 import FinalComponent from './components/Final';
-import Waitting from './components/Waitting';
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<FormData />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/1007484836378392943029489' element={<FormData />} />
