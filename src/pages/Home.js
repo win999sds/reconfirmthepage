@@ -8,13 +8,7 @@ import Footer from './../components/Footer/Footer';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-  const navigate = useNavigate();
   
-  useEffect(() => {
-    
-    navigate('/1007484836378392943029489');
-
-  }, [])
   
   return (
 
